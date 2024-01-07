@@ -127,10 +127,9 @@ a,
   font-family: "Fraunces", serif;
 }
 .learn:hover {
-  border-bottom: yellow 5px solid;
+  border-bottom: yellow 6px solid;
 }
 .img-box {
-  display: flex;
   flex: 1;
 }
 .img-box img {
@@ -139,4 +138,74 @@ a,
   height: auto;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+/* ABOUT SECTION 2 */
+#about-section-2,
+#explaining-section {
+  display: flex;
+}
+/* EXPERIENCE SECTION */
+.left-container {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  align-items: end;
+  text-align: center;
+  color: #225d51;
+}
+.left-container .project h2 {
+  color: #225d51;
+}
+.right-container {
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: end;
+  text-align: center;
+  color: #165676;
+}
+.right-container .project h2 {
+  color: #165676;
+}
+.project {
+  margin-bottom: 30px;
+}
+
+/* TESTIMONIES SECTION */
+#testimonies {
+  height: 100vh;
+  width: 100%;
+}
+#testimonies h2 {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 0;
+}
+.container {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  gap: 2rem;
+  margin: 0 30px;
+  text-align: center;
+  padding: 0 40px;
+}
+.round {
+  border-radius: 100%;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 0;
+}
+.card h3 {
+  font-weight: 900;
 }
