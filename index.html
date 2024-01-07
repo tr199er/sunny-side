@@ -8,17 +8,162 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- NAV -->
+    <!------- NAV ------->
     <nav id="nab-bar">
       <div class="logo">
         <img src="./images/logo.svg" alt="SunnySide" />
       </div>
       <div class="nav-links-container">
         <ul class="nav-links">
-          <li class="links"></li>
+          <li class="links"><a href="#about">About</a></li>
+          <li class="links"><a href="#services">Services</a></li>
+          <li class="links"><a href="#projects">Projects</a></li>
+          <li class="links btn"><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </nav>
+    <!------ HAMBURGER ------->
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <img src="./images/icon-hamburger.svg" alt="" />
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+            <li>
+              <a href="#contact menu-btn" onclick="toggleMenu()">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!------- INTRO PAGE ------->
+    <section id="intro-page">
+      <div class="intro-page-heading">
+        <h1>WE ARE CREATIVES</h1>
+      </div>
+      <div class="arrow">
+        <img src="./images/icon-arrow-down.svg" alt="" />
+      </div>
+    </section>
+    <!----- ABOUT SECTION-1----->
+    <section id="about-section-1">
+      <div class="text_box">
+        <h2>Transform your brand</h2>
+        <p>
+          We are a full-service creative specializing in helping brands grow
+          fast. Engage your clients through compelling visuals that do most of
+          the marketing for you.
+        </p>
+        <a href="#">LEARN MORE</a>
+      </div>
+      <div class="img-box">
+        <img src="./images/desktop/image-transform.jpg" alt="" />
+      </div>
+    </section>
+    <!------- ABOUT-SECTION-2 ------->
+    <section id="about-section-2">
+      <div class="img-box">
+        <img src="./images/desktop/image-stand-out.jpg" alt="" />
+      </div>
+      <div class="text_box">
+        <h2>Stand out to the right audience</h2>
+        <p>
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers. and copywriters. we'll build and extend
+          your brand in digital places
+        </p>
+        <a href="#">LEARN MORE</a>
+      </div>
+    </section>
+    <!-- EXPLAINING SECTION -->
+    <section id="explaining-section">
+      <div>
+        <h3>Graphic Design</h3>
+        <p>
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captire potential cloent's attention
+        </p>
+      </div>
+      <div>
+        <h3>GPhotography</h3>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve ur business image.
+        </p>
+      </div>
+    </section>
+
+    <!------ TESTIMONIES SECTION ------>
+    <section id="testimonies">
+      <div class="container">
+        <div class="card">
+          <img src="./images/image-emily.jpg" alt=" emily image" />\
+          <p>
+            We put our trust in sunnyside and they delivered making sure our
+            needs were mrt and deadlines were always hit
+          </p>
+          <h3>Emily R.</h3>
+          <p>marketring director</p>
+        </div>
+        <div class="card">
+          <img src="./images/image-thomas.jpg" alt=" thomas image" />\
+          <p>
+            We put our trust in sunnyside and they delivered making sure our
+            needs were mrt and deadlines were always hit
+          </p>
+          <h3>Emily R.</h3>
+          <p>chat operating officer</p>
+        </div>
+        <div class="card">
+          <img src="./images/image-jennie.jpg" alt=" jennie image" />\
+          <p>
+            We put our trust in sunnyside and they delivered making sure our
+            needs were mrt and deadlines were always hit
+          </p>
+          <h3>Emily R.</h3>
+          <p>Business owner</p>
+        </div>
+      </div>
+    </section>
+    <!-- IMAGE SECTION -------->
+    <section id="image-section">
+      <img
+        src="./images/desktop/image-gallery-milkbottles.jpg"
+        alt="milkbottle"
+      />
+      <img src="./images/desktop/image-gallery-orange.jpg" alt="orange" />
+      <img src="./images/desktop/image-gallery-cone.jpg" alt="cone" />
+      <img
+        src="./images/desktop/image-gallery-sugarcubes.jpg"
+        alt="sugar cube"
+      />
+    </section>
+    <!------- FOOTER ------->
+    <footer>
+      <img src="./images/logo.svg" alt="" />
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="icon-container">
+        <img src="./images/icon-facebook.svg" class="icon" alt="" />
+        <img src="./images/icon-instagram.svg" class="icon" alt="" />
+        <img src="./images/icon-twitter.svg" class="icon" alt="" />
+        <img src="./images/icon-pinterest.svg" class="icon" alt="" />
+      </div>
+    </footer>
     <script src="./script.js"></script>
   </body>
 </html>
