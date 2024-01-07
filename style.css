@@ -16,11 +16,13 @@ body {
 /* TEXT COLORS */
 p {
   color: hsl(167, 40%, 24%);
+  font-family: "Barlow", sans-serif;
 }
 h1,
 h2,
 h3 {
   color: black;
+  font-family: "Fraunces", serif;
 }
 
 /* TRASITION FOR LINKS AND BUTTON */
@@ -33,8 +35,44 @@ a,
 #nav-bar {
   display: flex;
   background: rgba(62, 191, 255, 255);
-  height: 11vh;
+  padding: 40px 40px;
+  justify-content: space-between;
 }
+
+.logo img {
+  width: 130px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgba(230, 248, 254, 255);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.btn a {
+  border: none;
+  border-radius: 20px;
+  background: white;
+  color: black;
+}
+
+/* NAVBAR HOVER EFFECT */
+.links a:hover {
+  color: white;
+}
+.btn a:hover {
+  background: rgba(106, 210, 255, 255);
+  color: rgba(230, 248, 254, 255);
+}
+/* HAMBURBER */
 #hamburger-nav {
   display: none;
 }
+/* INTRO PAGE */
