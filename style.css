@@ -182,18 +182,21 @@ a,
 }
 #testimonies h2 {
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 10rem;
   margin-bottom: 0;
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+  color: #ababab;
 }
 .container {
   display: flex;
-  height: inherit;
+  /* height: inherit; */
   align-items: center;
   justify-content: space-around;
 }
 .card {
   gap: 2rem;
-  margin: 0 30px;
+  margin: 4rem 30px;
   text-align: center;
   padding: 0 40px;
 }
@@ -208,4 +211,62 @@ a,
 }
 .card h3 {
   font-weight: 900;
+  margin-top: 5rem;
+  color: #2a323f;
+}
+.card p {
+  color: #626667;
+}
+
+/* IMAGE SECTION */
+#image-section {
+  display: block;
+}
+.image-section-container {
+  display: flex;
+  height: 65vh;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.image_container {
+  display: flex;
+}
+.image_container img {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  height: 35vh;
+  background: #90d4c5;
+  /* color: #2d7567; */
+  display: flex;
+  justify-content: center;
+}
+.logo-container {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo-container img {
+  width: 10rem;
+  color: #2d7567;
+}
+.nav-links .btm {
+  margin-top: 2rem;
+  color: #2d7567;
+}
+.nav-links .btm a {
+  color: #2d7567;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.icon {
+  padding: 0 8px;
+  width: 0.8rem;
 }
