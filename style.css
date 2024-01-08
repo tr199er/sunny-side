@@ -249,10 +249,11 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  fill: #2d7567;
 }
 .logo-container img {
   width: 10rem;
-  color: #2d7567;
+  fill: #2d7567;
 }
 .nav-links .btm {
   margin-top: 2rem;
