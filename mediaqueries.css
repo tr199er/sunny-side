@@ -163,3 +163,31 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media screen and (max-width: 375px) {
+  .logo img {
+    width: 140px;
+  }
+  .intro-page-heading h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0;
+  }
+  .text_box {
+    padding: 0 1rem;
+  }
+  .text_box h2 {
+    font-size: 2.3rem;
+  }
+  .project {
+    padding: 0;
+  }
+  .btm-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .btm a {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+  }
+}

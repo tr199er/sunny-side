@@ -250,9 +250,7 @@ a,
 
 /* FOOTER */
 footer {
-  /* height: 35vh; */
   background: #90d4c5;
-  /* color: #2d7567; */
   display: flex;
   justify-content: center;
 }
