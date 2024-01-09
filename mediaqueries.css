@@ -76,6 +76,9 @@
     font-family: "Fraunces", serif;
     margin-top: 0.3rem;
   }
+  .btn-mob a:hover {
+    color: white;
+  }
 
   .menu-links li {
     list-style: none;
