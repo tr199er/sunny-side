@@ -1,4 +1,4 @@
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 750px) {
   /* HAMBURGER MENU */
   #nav-bar {
     display: none;
@@ -6,6 +6,12 @@
 
   #hamburger-nav {
     display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 3rem;
+  }
+  .logo img {
+    width: 180px;
   }
 
   .hamburger-menu {
@@ -13,11 +19,7 @@
     display: inline-block;
   }
 
-  .hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 24px;
+  .hamburger-icon img {
     width: 30px;
     cursor: pointer;
   }
@@ -34,13 +36,15 @@
     top: 100%;
     right: 0;
     background-color: white;
-    width: fit-content;
+    width: 85vw;
     max-height: 0;
+    height: 70vh;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    display: flex;
+    justify-content: center;
   }
-
-  .menu-links a {
+  .menu-links ul {
     display: block;
     padding: 10px;
     text-align: center;
@@ -50,11 +54,109 @@
     transition: all 0.3 ease-in-out;
   }
 
+  .menu-links a {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #a7a8ac;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+  }
+  .menu-links a:hover {
+    color: black;
+  }
+  .btn-mob a {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #f9d700;
+    color: #322c01;
+    font-family: "Fraunces", serif;
+    margin-top: 0.3rem;
+  }
+
   .menu-links li {
     list-style: none;
+    margin: 3.2rem;
   }
 
   .menu-links.open {
-    max-height: 300px;
+    max-height: 100vh;
+  }
+  #intro-page {
+    background-image: url(./images/mobile/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .intro-page-heading {
+    margin-top: 3vh;
+  }
+  .intro-page-heading h1 {
+    text-align: center;
+    font-size: 3.3rem;
+    word-spacing: 0.9rem;
+    letter-spacing: 0.3rem;
+    color: white;
+  }
+  .arrow img {
+    width: 3rem;
+  }
+  #about-section-1 {
+    flex-direction: column-reverse;
+  }
+  .text_box-container {
+    display: flex;
+    height: 60vh;
+  }
+  .text_box {
+    margin: 10rem 0;
+    text-align: center;
+  }
+  #about-section-2,
+  #explaining-section {
+    flex-direction: column;
+  }
+  #explaining-section {
+    height: 1200px;
+  }
+  .left-container {
+    background-image: url(./images/mobile/image-graphic-design.jpg);
+    width: 100%;
+    background-size: cover;
+  }
+  .right-container {
+    background-image: url(./images/mobile/image-photography.jpg);
+    width: 100%;
+  }
+  .project {
+    margin: 0;
+  }
+  #testimonies {
+    height: auto;
+    width: 100%;
+  }
+  #testimonies h2 {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: #ababab;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .card-img {
+    margin-bottom: 3.6rem;
+  }
+  .card h3 {
+    margin-top: 3.6rem;
+  }
+  .card p {
+    font-weight: bold;
+  }
+  .image-section-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
